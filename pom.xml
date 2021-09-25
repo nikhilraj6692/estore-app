@@ -8,8 +8,8 @@
         <version>1.4.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.tomtom.demo</groupId>
-    <artifactId>ecommerce-app</artifactId>
+    <groupId>com.estore.demo</groupId>
+    <artifactId>estore-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ecommerce-app</name>
     <description>Ecommerce Application</description>
