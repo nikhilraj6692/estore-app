@@ -59,4 +59,3 @@ The user which would be having access to given permission and capability id woul
 - Ability to send notifications to users via mailgun
 - The application makes use of JMS and AWS SQS for performing event based functionalities like sending out notifications to users. You will have to configure two queues, one to receive async callback from SQS to perform notification operations and second (dead letter queue) to log any error in case primary listener fails. 
 
-![estore](/src/main/resources/estore.png)
