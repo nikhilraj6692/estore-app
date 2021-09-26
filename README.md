@@ -29,8 +29,8 @@ Please note that `8084` is the port assigned to the app in application.propertie
 
 Refer below for class and use case diagrams
 
-![](src/main/resources/lldDiagrams/EStoreUseCaseDiagram.png)
-![](src/main/resources/lldDiagrams/EStoreClassDiagram.png)
+![EStoreUseCaseDiagram](src/main/resources/lldDiagrams/EStoreUseCaseDiagram.png)
+![EStoreClassDiagram](src/main/resources/lldDiagrams/EStoreClassDiagram.png)
 
 The application has a few major functionalities:
 - Ability to fetch authorization bearer token with non-authenticated `/login` api. To fetch token, provide below details:
@@ -58,4 +58,4 @@ The user which would be having access to given permission and capability id woul
 - Ability to send notifications to users via mailgun
 - The application makes use of JMS and AWS SQS for performing event based functionalities like sending out notifications to users. You will have to configure two queues, one to receive async callback from SQS to perform notification operations and second (dead letter queue) to log any error in case primary listener fails. 
 
-![](src/main/resources/estore.png)
+![estore](src/main/resources/estore.png)
