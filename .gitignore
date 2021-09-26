@@ -20,7 +20,9 @@
 *.rar
 
 #### ignore all .idea files ...
-*
+.idea
+target*
+*.iml
 
 #### except
 

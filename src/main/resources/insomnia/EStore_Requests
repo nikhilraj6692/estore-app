@@ -1,0 +1,700 @@
+_type: export
+__export_format: 4
+__export_date: 2021-09-26T08:30:06.573Z
+__export_source: insomnia.desktop.app:v2021.5.3
+resources:
+  - _id: req_2190698756424161aa6fdfca83ad195e
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632595680205
+    created: 1632480577134
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByCategory
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: category
+        value: home appliances
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800145
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: fld_a9fd9e0127fc4655b0778d2284fb622b
+    parentId: wrk_e2acdecb909e454e8f20dabafcc3f653
+    modified: 1632503333944
+    created: 1632503333944
+    name: ECommerce
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1632503333944
+    _type: request_group
+  - _id: wrk_e2acdecb909e454e8f20dabafcc3f653
+    parentId: null
+    modified: 1632467452951
+    created: 1632467452951
+    name: Ecommerce
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_25a6962dc0ae4957b5908f015f1abc1b
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632594251275
+    created: 1632594220607
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByProductName
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: name
+        value: lg
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800138.75
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_cc3e2d35745e4be0adb7bff56d478f09
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632594166596
+    created: 1632594161944
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByCategory2
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: category
+        value: electronics
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800132.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_be0279e60d8e4e5189cde6ad8d7c00b2
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632594179424
+    created: 1632594176113
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByCategory3
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: category
+        value: mobiles
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800126.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_40c1705336d747ce9b4f1ad65a08aa2d
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632594198426
+    created: 1632593846514
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByCategoryAndProductName
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: category
+        value: electronics
+        description: ""
+        disabled: false
+      - id: pair_decd9a58d9dd4d8d987e9ab396873758
+        name: name
+        value: oppo
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800120
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_8249eab6529f4932880e775711c3c6f4
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632594211519
+    created: 1632594205708
+    url: http://localhost:8084/v1/products/getproducts-by-name-or-category
+    name: GetProductsByCategoryAndProductName2
+    description: ""
+    method: GET
+    body: {}
+    parameters:
+      - id: pair_e7f3ca0ec6474533958dbe5e04422fe8
+        name: category
+        value: electronics
+        description: ""
+        disabled: false
+      - id: pair_decd9a58d9dd4d8d987e9ab396873758
+        name: name
+        value: lg
+        description: ""
+        disabled: false
+    headers: []
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800107.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_586ec70492d54f9884ab821951382aea
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632593813228
+    created: 1632470266346
+    url: http://localhost:8084/v1/orders/ordernow
+    name: OrderNow
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"orderItems":[
+        		{
+        			"id":"PROD138",
+        			"qty" : 2,
+        			"price" : 250000
+        		}
+        	],
+        	"address1":{
+              "addressType":"SHIPPING",
+              "address1":"Test",
+              "state":"Maharashtra",
+              "country":"India",
+              "zipCode":842001
+            },
+            "address2":{
+              "addressType":"BILLING",
+              "address1":"Test",
+              "state":"Maharashtra",
+              "country":"India",
+              "zipCode":842001
+            },
+            "paymentDetail":{
+              "type":"card",
+              "cardNumber":"123456789856",
+              "expiryMonth" : 12,
+              "expiryYear" : 2023,
+              "cardType":"VISA"
+              
+            }
+        		
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_5ce998c2a2b848468700fb34f326a893
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800095
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_fb2e45b4329e4f1f9aa8c72622b89935
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632593744913
+    created: 1632471648713
+    url: http://localhost:8084/v1/orders/checkout
+    name: CheckoutCart
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"orderItems":[
+        		{
+        			"id":"PROD138",
+        			"qty" : 1,
+        			"price" : 250000
+        		}
+        	],
+        	"address1":{
+              "addressType":"SHIPPING",
+              "address1":"Test",
+              "state":"Maharashtra",
+              "country":"India",
+              "zipCode":842001
+            },
+            "address2":{
+              "addressType":"BILLING",
+              "address1":"Test",
+              "state":"Maharashtra",
+              "country":"India",
+              "zipCode":842001
+            },
+            "paymentDetail":{
+              "type":"card",
+              "cardNumber":"123456789856",
+              "expiryMonth" : 12,
+              "expiryYear" : 2023,
+              "cardType":"VISA"
+              
+            }
+        		
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_5ce998c2a2b848468700fb34f326a893
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486800045
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_53da4fbd8045431bb7891d47a76f82fb
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632597907507
+    created: 1632469396121
+    url: http://localhost:8084/v1/cart/addtocart
+    name: AddOrUpdateCart
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"product":{
+        		"id":"PROD531",
+        		"price":20000
+        	},
+        	"count":7
+        	
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_de7c1f6ce1e2481da2a74201555b5323
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiVVNFUiJ9XSwiZXhwIjoxNjMyNjc5NTgxLCJ1c2VySWQiOiJ1c2VyMDEiLCJ1c2VybmFtZSI6Im5pa2hpbEBlc3RvcmUuY29tIn0._BMGPy2APa1rFkS5ZeQC3RecD4qtPSdj6z6CEdF_9m845axD_vDzqZSDdbIjUBY4SYrigWFjGkHMPyQujje8Cw
+      prefix: Bearer
+    metaSortKey: -1632486799995
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_3cb7fd67e735459aa45e07895db5b8db
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632593285398
+    created: 1632467600877
+    url: http://localhost:8084/v1/products/addproduct
+    name: CreateProductSeller1
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"price" : 20000.00,
+        	"quantity" : 8,
+        	"metaData" : {
+        		"productName" : "Oppo V5",
+        		"productDetail" : "This is Oppo V5",
+        		"images":[
+        			{
+        				"imageId" : "IMG3",
+        				"imageDescription" : "Oppo V5"
+        			},
+        			{
+        				"imageId" : "IMG4",
+        				"imageDescription" : "Oppo V5"
+        			}
+        		],
+        		"summary" : "This is a fantastic product",
+        		"category":{
+        			"name" : "TouchScreen Mobiles"
+        		}
+        	}
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd3ae3f7914143bab0ed66bc2d56b408
+    authentication:
+      type: bearer
+      prefix: Bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiU0VMTEVSIn1dLCJleHAiOjE2MzI2Nzk1NjMsInVzZXJJZCI6InNlbGxlcjAxIiwidXNlcm5hbWUiOiJzZWxsZXIxQGVzdG9yZS5jb20ifQ.n9_UAeeF8OJ9Ik_fqakC_7vf85JosHlaq2Mq5MAiYR7I_S308QYdMoscfXC4RRC6_tIvWw1DIE04AcCYifPeIg
+    metaSortKey: -1632486799945
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_dd36a446ae9e43c5aa1f7410f0677838
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632580496827
+    created: 1632468554447
+    url: http://localhost:8084/v1/products/addproduct
+    name: UpdateProductSeller1
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id":"PROD034",
+        	"price" : 5000.00,
+        	"quantity" : 9
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd3ae3f7914143bab0ed66bc2d56b408
+        disabled: false
+    authentication:
+      type: bearer
+      prefix: Bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiU0VMTEVSIn1dLCJleHAiOjE2MzI2NDEyMDMsInVzZXJJZCI6InNlbGxlcjAxIiwidXNlcm5hbWUiOiJzZWxsZXIxQGVzdG9yZS5jb20ifQ.9yfQWk-TjjI80v938xdUNNkqU28EX_tglvXU5ljOLHUloDoV9SsPZBFr9Wm9DzSBFCM5dZId5WWlj5nD86N2ag
+      disabled: false
+    metaSortKey: -1632486799895
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_79a67c1be16746919ae236a74cba2a12
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632579165151
+    created: 1632577816031
+    url: http://localhost:8084/v1/email/callback
+    name: Test
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id":"PROD034",
+        	"price" : 5000.00,
+        	"quantity" : 9
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd3ae3f7914143bab0ed66bc2d56b408
+        disabled: false
+    authentication:
+      type: bearer
+      prefix: Bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiU0VMTEVSIn1dLCJleHAiOjE2MzI2NDEyMDMsInVzZXJJZCI6InNlbGxlcjAxIiwidXNlcm5hbWUiOiJzZWxsZXIxQGVzdG9yZS5jb20ifQ.9yfQWk-TjjI80v938xdUNNkqU28EX_tglvXU5ljOLHUloDoV9SsPZBFr9Wm9DzSBFCM5dZId5WWlj5nD86N2ag
+      disabled: true
+    metaSortKey: -1632486799882.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_042ae4f11b37423993d1c019c606f3fa
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632593596989
+    created: 1632468440787
+    url: http://localhost:8084/v1/products/addproduct
+    name: CreateProductSeller2
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"price" : 100000.00,
+        	"quantity" : 10,
+        	"metaData" : {
+        		"productName" : "TV",
+        		"productDetail" : "This is AwesomeTV",
+        		"images":[
+        			{
+        				"imageId" : "IMG3",
+        				"imageDescription" : "TV"
+        			},
+        			{
+        				"imageId" : "IMG4",
+        				"imageDescription" : "TV"
+        			}
+        		],
+        		"summary" : "This is a fantastic product",
+        		"category":{
+        			"name" : "Home Applicances"
+        		}
+        	}
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd3ae3f7914143bab0ed66bc2d56b408
+    authentication:
+      type: bearer
+      prefix: Bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiU0VMTEVSIn1dLCJleHAiOjE2MzI2Nzk3NjQsInVzZXJJZCI6InNlbGxlcjAyIiwidXNlcm5hbWUiOiJzZWxsZXIyQGVzdG9yZS5jb20ifQ.jTP2hjQrczWTClWV0uRz3lehxBpJ5ew4nIveC_2UT9pE38DsK8FaTF2xNGqdlUrMaS4CG3K3bwGtxfejMnAUSA
+    metaSortKey: -1632486799870
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_d5d658cfa9334f3aabca8c3aa95cfd73
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632503350648
+    created: 1632467469670
+    url: http://localhost:8084/login
+    name: Login
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username" : "nikhil@estore.com",
+        	"password" : "Nikhil"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_c442dccb9915472e98a2add5f632f068
+    authentication: {}
+    metaSortKey: -1632486799857.5
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_44cd9f49abe644529bd85f08f56e21cc
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632593621894
+    created: 1632468892431
+    url: http://localhost:8084/v1/products/addproduct
+    name: UpdateProductSeller2
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id":"PROD138",
+        	"price" : 250000.00,
+        	"quantity" : 50
+        }
+    parameters:
+      - id: pair_9f00946bf725423baf2c987cab7d5f34
+        name: category
+        value: electronics
+        description: ""
+        disabled: true
+      - id: pair_0120f1d7f2184f1db9f30f1a1e8f0b0d
+        name: ""
+        value: ""
+        description: ""
+        disabled: true
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_fd3ae3f7914143bab0ed66bc2d56b408
+    authentication:
+      type: bearer
+      prefix: Bearer
+      token: eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6W3siYXV0aG9yaXR5IjoiU0VMTEVSIn1dLCJleHAiOjE2MzI2Nzk3NjQsInVzZXJJZCI6InNlbGxlcjAyIiwidXNlcm5hbWUiOiJzZWxsZXIyQGVzdG9yZS5jb20ifQ.jTP2hjQrczWTClWV0uRz3lehxBpJ5ew4nIveC_2UT9pE38DsK8FaTF2xNGqdlUrMaS4CG3K3bwGtxfejMnAUSA
+    metaSortKey: -1632486799845
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_3bb4b106b5de4335b73576132061de4f
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632503352844
+    created: 1632467548017
+    url: http://localhost:8084/login
+    name: LoginSeller2
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username" : "seller2@estore.com",
+        	"password" : "Seller"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_c442dccb9915472e98a2add5f632f068
+    authentication: {}
+    metaSortKey: -1632486799795
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_dc98e76da31344f3aefe55587edb037a
+    parentId: fld_a9fd9e0127fc4655b0778d2284fb622b
+    modified: 1632503353838
+    created: 1632467542604
+    url: http://localhost:8084/login
+    name: LoginSeller1
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username" : "seller1@estore.com",
+        	"password" : "Seller"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_c442dccb9915472e98a2add5f632f068
+    authentication: {}
+    metaSortKey: -1632486799745
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_505fe867a3c94b1782eca4911c9fb269bfdc85a4
+    parentId: wrk_e2acdecb909e454e8f20dabafcc3f653
+    modified: 1632467452962
+    created: 1632467452962
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1632467452962
+    _type: environment
+  - _id: jar_505fe867a3c94b1782eca4911c9fb269bfdc85a4
+    parentId: wrk_e2acdecb909e454e8f20dabafcc3f653
+    modified: 1632467452967
+    created: 1632467452967
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_6fa48a7be870423b997c07622fcfc421
+    parentId: wrk_e2acdecb909e454e8f20dabafcc3f653
+    modified: 1632467452953
+    created: 1632467452953
+    fileName: Ecommerce
+    contents: ""
+    contentType: yaml
+    _type: api_spec
