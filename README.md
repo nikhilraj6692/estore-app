@@ -29,7 +29,7 @@ Please note that `8084` is the port assigned to the app in application.propertie
 
 Refer below for class and use case diagrams
 
-![EStoreUseCaseDiagram](src/main/resources/lldDiagrams/EStoreUseCaseDiagram.png)
+![EStoreUseCaseDiagram](src/main/resources/lldDiagrams/EstoreUseCaseDiagram.png)
 ![EStoreClassDiagram](src/main/resources/lldDiagrams/EStoreClassDiagram.png)
 
 The application has a few major functionalities:
