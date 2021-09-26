@@ -1,4 +1,5 @@
-# EStore-app
+![estore](src/main/resources/estore.png)
+
 The project is a Ecommerce app built on Spring Boot, MongoDB, RestWeb Services, Spring Security, JMS, SQS etc.
 
 The below variables must be set in application.properties in order for the application to work properly and also for tests to run.
