@@ -8,6 +8,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+POJO class to hold cart information of the user in database
+ */
 @Document(collection = "CartItem")
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
